@@ -1,4 +1,4 @@
-# Music-Mood-Classification
+# Music Mood Classification
 Music mood classification project is a machine learning project developed using R language. Clustering method was used to create a target feature in the dataset while developing the project. K-Means Clustering Algorithm and Hierarchical Clustering Algorithm are used in the clustering method. Support Vector Machine Model, Random Forest Model, K-Nearest Neighbors Model, Decision Tree Model, Logistic Regression Model, Naive Bayes Model were used to classify music according to the mood of the person. The following libraries must be installed in order to run the project.
 
 - library("scales")
@@ -24,10 +24,15 @@ Music mood classification project is a machine learning project developed using 
 - library("ggpubr")
 - library("wesanderson")
 
-## Details of Data set
+## Data Set
+For the data set in the project, https://www.kaggle.com/ was used.
+Data set link used:
+>https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=data.csv
+### Details of Data Set
 The dataset consists of 15 numerical attributes and 4 categorical attributes making up to 19 total columns. The raw dataset contains 170,654 rows which are representing unique songs.
 
-- "valence" The positiveness of the track
+- "valence" 
+The positiveness of the track
 - "year" The release year of the track (1921 - 2020)
 - "acousticness" The relative metric of the track being acoustic
 - "artists" The list of artists credited for the production of the track
